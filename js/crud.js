@@ -69,7 +69,7 @@ function updateTask(id, data) {
 }
 
 //  Remove a task by ID.
-//  True if a task was removed, false if not found.
+//  return true if task was removed or else false
  
 function removeTask(id) {
     const index = tasks.findIndex(t => t.id === id);
